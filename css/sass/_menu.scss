@@ -1,0 +1,113 @@
+.logo {
+  width: auto;
+}
+
+.menuNavegacion {
+  background-color: $coral;
+  text-decoration: none;
+  text-align: center;
+
+  nav {
+    ul {
+      color: $beige;
+      list-style: none;
+      word-spacing: 5rem;
+      text-align: center;
+      padding: 1rem;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        color: $verde;
+        a {
+          text-decoration: none;
+          color: $beige;
+        }
+      }
+
+      ul {
+        display: none;
+        position: absolute;
+        background-color: $coral;
+      }
+    }
+  }
+}
+
+.menuNavegacion {
+  nav {
+    ul {
+      ul {
+        li {
+          display: block;
+          text-align: start;
+          color: $beige;
+        }
+      }
+    }
+  }
+}
+
+.menuNavegacion nav ul li:hover ul {
+  display: block;
+  color: $verde;
+  -webkit-animation: scale-in-tl 0.5s;
+  animation: scale-in-tl 0.5s;
+}
+
+.menuNavegacion__banner {
+  display: flex;
+  justify-content: center;
+  background-size: 1rem;
+  background: rgb(251, 234, 216);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(251, 234, 216, 1) 0%,
+    rgba(255, 169, 126, 1) 81%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(251, 234, 216, 1) 0%,
+    rgba(255, 169, 126, 1) 81%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(251, 234, 216, 1) 0%,
+    rgba(255, 169, 126, 1) 81%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbead8",endColorstr="#ffa97e",GradientType=1);
+  height: 10rem;
+}
+
+@-webkit-keyframes scale-in-tl {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-tl {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}

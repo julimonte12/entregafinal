@@ -1,0 +1,11 @@
+@mixin styleH1 {
+  letter-spacing: 0.1rem;
+  text-align: center;
+  color: $rosa;
+}
+
+@mixin styleH2 {
+  word-spacing: 1rem;
+  text-align: center;
+  color: $coral;
+}
