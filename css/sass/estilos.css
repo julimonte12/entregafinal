@@ -50,8 +50,6 @@
   justify-content: center;
   background-size: 1rem;
   background: #fbead8;
-  background: radial-gradient(circle, #fbead8 0%, #ffa97e 81%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbead8",endColorstr="#ffa97e",GradientType=1);
   height: 10rem;
 }
 

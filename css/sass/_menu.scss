@@ -55,29 +55,14 @@
   animation: scale-in-tl 0.5s;
 }
 
-.menuNavegacion__banner {
+.menuNavegacion__banner{
+  background-color: $beige;
   display: flex;
   justify-content: center;
   background-size: 1rem;
-  background: rgb(251, 234, 216);
-  background: -moz-radial-gradient(
-    circle,
-    rgba(251, 234, 216, 1) 0%,
-    rgba(255, 169, 126, 1) 81%
-  );
-  background: -webkit-radial-gradient(
-    circle,
-    rgba(251, 234, 216, 1) 0%,
-    rgba(255, 169, 126, 1) 81%
-  );
-  background: radial-gradient(
-    circle,
-    rgba(251, 234, 216, 1) 0%,
-    rgba(255, 169, 126, 1) 81%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbead8",endColorstr="#ffa97e",GradientType=1);
   height: 10rem;
 }
+
 
 @-webkit-keyframes scale-in-tl {
   0% {
