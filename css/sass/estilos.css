@@ -46,10 +46,10 @@
 }
 
 .menuNavegacion__banner {
+  background-color: #FBEAD8;
   display: flex;
   justify-content: center;
   background-size: 1rem;
-  background: #fbead8;
   height: 10rem;
 }
 
@@ -235,19 +235,6 @@ img {
   width: 100%;
 }
 
-.valoraciones__Hijos {
-  padding: 0 0 10rem;
-  width: 40%;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 3rem;
-}
-
 .carousel-inner img {
   height: 90vh;
   object-fit: cover;
@@ -288,45 +275,6 @@ h3 {
 }
 
 /* Fomulario */
-.fondoForm {
-  text-align: center;
-  font-family: "Tajawal", sans-serif;
-  border: solid #488277;
-  font-size: 1.7rem;
-  margin: 5rem;
-  width: 80rem;
-}
-
-.fondoForm__iniciar {
-  background-color: #488277;
-  text-align: center;
-  color: #aabca6;
-  border-radius: 5rem;
-  padding: 1rem;
-  margin: 2rem;
-}
-
-.fondoFormDos {
-  text-align: center;
-  font-family: "Tajawal", sans-serif;
-  border: solid #ed6f62;
-  font-size: 1.7rem;
-  margin: 5rem;
-  width: 80rem;
-}
-
-.fondoFormDos__consulta {
-  background-color: #ed6f62;
-  text-align: center;
-  color: #aabca6;
-  border-radius: 5rem;
-  padding: 1rem;
-}
-
-.botonContacto {
-  padding: 1rem;
-}
-
 .formContacto {
   margin: 2rem;
   padding: 2rem;

@@ -125,17 +125,6 @@ img {
   width: $wi100;
 }
 
-.valoraciones__Hijos {
-  padding: 0 0 10rem;
-  width: 400px /1000px * 100%;
-}
-
-@for $i from 2 through 3 {
-  h#{$i} {
-    font-size: $i * 1rem;
-  }
-}
-
 .carousel-inner {
   img {
     height: 90vh;
@@ -191,44 +180,6 @@ img {
 }
 
 /* Fomulario */
-.fondoForm {
-  text-align: center;
-  font-family: "Tajawal", sans-serif;
-  border: solid #488277;
-  font-size: 1.7rem;
-  margin: 5rem;
-  width: 80rem;
-}
-
-.fondoForm__iniciar {
-  background-color: #488277;
-  text-align: center;
-  color: #aabca6;
-  border-radius: 5rem;
-  padding: 1rem;
-  margin: 2rem;
-}
-
-.fondoFormDos {
-  text-align: center;
-  font-family: "Tajawal", sans-serif;
-  border: solid #ed6f62;
-  font-size: 1.7rem;
-  margin: 5rem;
-  width: 80rem;
-}
-
-.fondoFormDos__consulta {
-  background-color: #ed6f62;
-  text-align: center;
-  color: #aabca6;
-  border-radius: 5rem;
-  padding: 1rem;
-}
-
-.botonContacto {
-  padding: 1rem;
-}
 
 .formContacto {
   margin: 2rem;
@@ -244,6 +195,10 @@ li {
   list-style: none;
 }
 
+.form-control,
+.bigicon {
+  font-size: 1.5rem;
+}
 
 $type: rosa;
 
@@ -258,5 +213,3 @@ h1 {
     color: $gris;
   }
 }
-
-

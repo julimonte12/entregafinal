@@ -497,3 +497,9 @@ li a {
   display: flex;
   justify-content: start;
 }
+
+
+
+.form-control{
+  font-size: 2rem;
+}
